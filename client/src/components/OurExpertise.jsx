@@ -21,11 +21,11 @@ function OurExpertise() {
 
     return (
         <>
-            <section id="ourexpertise" className="px-3 md:lg:xl:px-40 py-20 bg-opacity-10 max-w-[1500px] mx-auto" style={{ zIndex: -1 }}>
+            <section  className="px-3 md:lg:xl:px-40 py-20 bg-opacity-10 max-w-[1500px] mx-auto" style={{ zIndex: -1 }}>
                 <img src={Aboutusreg} alt="" className='absolute mb-24 xxl:left-[200px] lg:left-[1000px] lg:max-w-[80%] lg:mb-48 md:left-[750px] md:max-w-[87%] sm:left-[600px] ss:left-[500px] ss:max-w-[70%] xs:left-[900px] xs:max-w-[30%] xxs:left-[300px] select-none ' style={{ zIndex: -1 }} />
                 <img src={Aboutusblob} alt="" className='absolute lg:right-[1100px] md:right-[800px] md:max-w-[80%] md:mt-42 sm:right-[620px]  sm:max-w-[60%] ss:right-[600px] ss:max-w-[50%] xs:right-[400px] xs:max-w-[80%] xxs:right-[282px] xxs:w-[25%] xxs:mt-42  select-none' style={{ zIndex: -1 }} />
                 <div className='flex space-y-2 flex-col text-center mb-14 select-none '>
-                    <h1 className="text-2xl md:text-4xl sm:text-4xl xxs:text-4xl xs:text-5xl font-bold text-center mt-8 mb-4 capitalize">
+                    <h1 id="ourexpertise"className="text-2xl md:text-4xl sm:text-4xl xxs:text-4xl xs:text-5xl font-bold text-center mt-8 mb-4 capitalize">
                         {t('OurExpertisePage.heading')}
                     </h1>
                     <span className='text-2xl xs:text-2xl xxs:text-xl'>

@@ -14,10 +14,10 @@ function Client() {
 
     return (
         <>
-            <section id='client' className="w-full min-h-[500px] flex flex-col justify-center items-center select-none ">
+            <section id='client' className="w-full min-h-[500px] lg:min-h-[450px] flex flex-col justify-center items-center select-none ">
                 <div className='w-[100%] flex flex-col'>
                     <div className='flex space-y-2 flex-col text-center mb-14 text-black'>
-                        <h1 className="md:text-4xl xsm:text-4xl sm:text-3xl xxs:text-4xl  xs:text-6xl text-2xl font-bold text-center mt-8 mb-4 capitalize">
+                        <h1 className="lg:text-[40px] md:text-4xl xsm:text-4xl sm:text-3xl xxs:text-4xl  xs:text-6xl text-2xl font-bold text-center mt-8 mb-4 capitalize">
                             {t('ClientPage.heading')}
                         </h1>
                         <span className='lg:text-3xl md:text-3xl sm:text-3xl xs:text-2xl xxs:text-xl  '>
@@ -26,7 +26,7 @@ function Client() {
                     </div>
                     <Marquee direction="right" autoFill pauseOnMouseOver >
                         <div className='m-1 flex space-x-6 xxs:space-x-0 p-7 xxs:p-1  '>
-                            <img src={odeabank} alt="Odea Bank" className="inline-block h-14 mr-8 ml-8 md:mr-2 md:ml-2 " />
+                            <img src={odeabank} alt="Odea Bank" className="inline-block h-12 mr-8 ml-8 md:mr-2 md:ml-2 " />
                         </div>
                         <div className=' m-1 flex space-x-6 xxs:space-x-0 p-7 xxs:p-1 '>
                             <img src={BurganBank} alt="Burgan Bank" className="inline-block h-16 mr-8 ml-8 md:mr-4 md:ml-2 " />

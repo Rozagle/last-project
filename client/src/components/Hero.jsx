@@ -14,7 +14,7 @@ function Hero() {
 
   return (
     <>
-      <div className='max-w-[6840px] max-h-[780px] lg:max-h-[630px] xxs:min-h-[500px] flex flex-col md:flex-row sm:flex-row ss:flex-row xs:flex-row xxs:flex-row items-center justify-center bg-cover bg-center text-white relative z-1' style={{
+      <div className='max-w-[6840px] max-h-[780px] lg:max-h-[633px] xxs:min-h-[500px] flex flex-col md:flex-row sm:flex-row ss:flex-row xs:flex-row xxs:flex-row items-center justify-center bg-cover bg-center text-white relative z-1' style={{
         backgroundImage: `url(${herobg})`, zIndex: -1
       }}>
 

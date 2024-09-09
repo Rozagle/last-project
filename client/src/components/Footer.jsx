@@ -1,4 +1,4 @@
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
@@ -42,7 +42,7 @@ function Footer() {
                             <h3 className="text-lg lg:text-2xl xsm:text-3xl xxs:text-2xl font-bold mb-4">{t('FooterPage.heading2')}</h3>
                             <ul className="space-y-2 xsm:space-y-5">
                                 <li><a href="tel:+905325959709" className="text-white lg:text-xl xsm:text-2xl xxs:text-xl mb-2.5  xsm:mb-4 hover:text-gray-400">{t('FooterPage.contactus')}</a></li>
-                                <li><Link to="/privacypolicy" className="text-white lg:text-xl xsm:text-2xl xxs:text-xl mb-2.5 xsm:mb-4 hover:text-gray-400">{t('FooterPage.policy')}</Link></li>
+                                {/* <li><Link to="/privacypolicy" className="text-white lg:text-xl xsm:text-2xl xxs:text-xl mb-2.5 xsm:mb-4 hover:text-gray-400">{t('FooterPage.policy')}</Link></li> */}
                             </ul>
                         </div>
                     </div>

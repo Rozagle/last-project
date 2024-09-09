@@ -129,14 +129,14 @@ function Teams() {
     { 'Name': 'Cuneyt Gülener', 'title': 'title3', 'titlesub': 'title3sub', 'img': team3 },
     { 'Name': 'Emin Uçar', 'title': 'title4', 'titlesub': 'title4sub', 'img': team4 },
     { 'Name': 'H. Meral Akman', 'title': 'title5', 'titlesub': 'title5sub', 'img': team5 },
-    { 'Name': 'Gürkan Güleç', 'title': 'title6', 'titlesub': 'title6sub', 'img': team6 },
+    { 'Name': 'Süleyman Gürkan Güleç', 'title': 'title6', 'titlesub': 'title6sub', 'img': team6 },
     { 'Name': 'Çiğdem Büyükergen', 'title': 'title7', 'titlesub': 'title7sub', 'img': team7 },
     { 'Name': 'Zafer Şekerci', 'title': 'title8', 'titlesub': 'title8sub', 'img': team8 },
     { 'Name': 'Serkan Kunduracı', 'title': 'title9', 'titlesub': 'title9sub', 'img': team9 },
     { 'Name': 'Dilek Şekerci', 'title': 'title10', 'titlesub': 'title10sub', 'img': team10 },
     { 'Name': 'Roza Allafi', 'title': 'title11', 'titlesub': 'title11sub', 'img': team11 },
-    { 'Name': 'Arınç aydın', 'title': 'title12', 'titlesub': 'title12sub', 'img': team12 },
-    { 'Name': 'Çağan Oduncuoğlu', 'title': 'title13', 'titlesub': 'title13sub', 'img': team13 },
+    { 'Name': 'Tuna Arınç Aydın', 'title': 'title12', 'titlesub': 'title12sub', 'img': team12 },
+    { 'Name': 'Melik Çağan Oduncuoğlu', 'title': 'title13', 'titlesub': 'title13sub', 'img': team13 },
     { 'Name': 'Mustafa Yılmaz', 'title': 'title14', 'titlesub': 'title14sub', 'img': team14 }
   ];
 
