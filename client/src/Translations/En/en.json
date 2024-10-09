@@ -5,6 +5,8 @@
   "client": "Reference",
   "teams": "Team",
   "contactus": "Contact Us",
+  "title": "Siyeso Software",
+
  
   "NavbarPage" : {
     "Selectelanguage":"Select language",
@@ -62,8 +64,8 @@
   },
   "TeamPage":{
     "heading":"Our Team",
-    "subheading1": "With our continuously expanding and experienced ",
-    "subheading2": "team, we are able to keep delivering \"innovative solutions.\"",
+    "subheading": "With our continuously expanding and experienced team, we are able to keep delivering \"innovative solutions.\" ",
+    "subheading2": "",
     "title1": "Managing Partner",
     "title1sub":"General Director",
     "title2":"Managing Partner",

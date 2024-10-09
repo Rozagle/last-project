@@ -142,21 +142,21 @@ function Teams() {
 
   return (
     <>
-      <section id="teams" className='flex space-y-1 flex-col text-center mb-14 xxs:mb-4'>
+      <section id="teams" className='flex space-y-1 flex-col text-center pt-8 mb-1 xxs:mb-4 desktopSmall:pt-24'>
         <div className='flex space-y-2 flex-col text-center xxs:p-2 select-none'>
-          <h1 className="text-2xl md:text-4xl sm:text-3xl xsm:text-4xl xxs:text-4xl font-bold text-center mt-8 mb-4 xxs:mb-0 capitalize">
+          <h1 className="text-2xl desktopMedium:text-5xl md:text-4xl sm:text-3xl xsm:text-4xl xxs:text-4xl font-bold text-center mt-8 mb-4 xxs:mb-0 capitalize">
             {t('TeamPage.heading')}
           </h1>
-          <span className='text-2xl md:text-3xl xsm:text-3xl xxs:text-xsm'>
-            {t('TeamPage.subheading1')}
+          <span className='text-2xl md:text-3xl xsm:text-3xl xxs:text-xsm lg:text-nowrap'>
+            {t('TeamPage.subheading')}
           </span>
-          <span className='text-2xl md:text-3xl xsm:text-3xl xxs:text-xsm'>
+          {/* <span className='text-2xl md:text-3xl xsm:text-3xl xxs:text-xsm'>
             {t('TeamPage.subheading2')}
-          </span>
+          </span> */}
         </div>
       </section>
 
-      <div className="slider-container min-h-[220px]">
+      <div className="slider-container min-h-[120px] mt-16">
         <div className="wrapper">
           <FiArrowLeft id="left" className="arrow-icon" />
           <ul className="carousel" key={language}>
@@ -167,12 +167,19 @@ function Teams() {
                 </div>
                 <h2>{team.Name}</h2>
                 <span>{t(`TeamPage.${team.title}`)}</span>
-                <span className='subtitle'>
-                  {t(`TeamPage.${team.titlesub}`)}
-                </span>
+
+                {/* Wrap the subtitle in a container */}
+                <div className="subtitle-container">
+                  {team.titlesub && (
+                    <span className="subtitle">
+                      {t(`TeamPage.${team.titlesub}`)}
+                    </span>
+                  )}
+                </div>
               </li>
             ))}
           </ul>
+
           <FiArrowRight id="right" className="arrow-icon" />
         </div>
       </div>

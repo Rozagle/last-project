@@ -5,6 +5,7 @@
   "client": "Referanslar",
   "teams": "Takım",
   "contactus": "İletişim",
+  "title": "Siyeso Yazılım",
 
   "NavbarPage" : {
     "Selectelanguage":"Dil Seçenekleri",
@@ -43,7 +44,7 @@
     "description4":"Deneyimli kadromuz ile yurtiçi ve yurtdışı kurumların iş yapış modellerini değiştirmeye ve müşterilerimize değer katmaya yönelik projeler sunmaya devam ediyoruz."
   },
   "OurExpertisePage":{
-    "heading":"Uzmanlıklarımız",
+    "heading":"Uzmanlık Alanlarımız",
     "subheading":"Aşağıdaki alanlarda projeler geliştiriyoruz.",
     "firstgridheading":"​​Kıymetli Madenler Platformu",
     "firstgridsubheading1":"Kıymetli Madenler Platformu, borsa, banka ve finans kurumlarındaki işlemleri yönetir.  ",
@@ -62,9 +63,9 @@
   },
   "TeamPage": {
     "heading":"Takım",
-    "subheading1":"Her geçen gün büyüyen, ",
+    "subheading":"Her geçen gün büyüyen, deneyimli kadromuz ile birlikte \"yenilikçi çözümler\" sunmaya devam edebiliyoruz. ",
     "subheading2":" deneyimli kadromuz ile birlikte \"yenilikçi çözümler\" sunmaya devam edebiliyoruz.",
-    "title1":"Yönetici Ortak <br>Genel Müdür",
+    "title1":"Yönetici Ortak",
     "title1sub":"Genel Müdür",
     "title2":"Yönetici Ortak",
     "title2sub":"",

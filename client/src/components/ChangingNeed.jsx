@@ -29,7 +29,7 @@ function ChangingNeed() {
   }, [i18n]);
 
   return (
-    <section id='hero' className="mx-auto lg:w-4/6 md:w-11/12 sm:w-11/12 ss:w-11/12 xs:w-11/12 xxs:w-full bg-white p-1" style={{
+    <section id='hero' className="mx-auto desktopSmall:w-1/2 desktopUltraWide:w-1/4 desktopLarge:w-2/4 lg:w-4/6 md:w-11/12 sm:w-11/12 ss:w-11/12 xs:w-11/12 xxs:w-full bg-white p-1 desktopSmall:pt-32 lg:pt-16 " style={{
       zIndex: -1, userSelect: 'none',
       WebkitUserSelect: 'none',
       MozUserSelect: 'none',
