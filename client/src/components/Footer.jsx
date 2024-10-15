@@ -18,7 +18,7 @@ function Footer() {
                     <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 ss:grid-cols-2 gap-8  ">
                         <div className="select-none ">
                             <img
-                                className="select-none w-72 h-72 desktopSmall:w-[430px] desktopSmall:h-[300px] desktopSmall:ml-52 lg:w-96 lg:h-96 lg:ml-10 lg:pb-16 md:w-72 md:h-72 ss:ml-0 xxs:w-72 xxs:h-72 xxs:ml-20"
+                                className="select-none w-72 h-72 desktopSmall:w-[430px] desktopSmall:h-[300px] desktopSmall:ml-52 lg:w-96 lg:h-96 lg:ml-10 lg:pb-16 md:w-72 md:h-72 ss:ml-0 xs:flex xs:justify-center xs:items-center xxs:w-72 xxs:h-72 xxs:flex xxs:justify-center xxs:items-center"
                                 alt=""
                                 src="/siyesoNavbar.svg"
                             />

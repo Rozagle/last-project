@@ -29,24 +29,24 @@ function ChangingNeed() {
   }, [i18n]);
 
   return (
-    <section id='hero' className="mx-auto desktopSmall:w-1/2 desktopUltraWide:w-1/4 desktopLarge:w-2/4 lg:w-4/6 md:w-11/12 sm:w-11/12 ss:w-11/12 xs:w-11/12 xxs:w-full bg-white p-1 desktopSmall:pt-32 lg:pt-16 " style={{
+    <section id='hero' className="mx-auto  desktopUltraWide:w-1/4 desktopLarge:w-2/4 desktopSmall:w-1/2 xl:w-[1000px] lg:w-[1000px] md:w-11/12 xsm:w-11/12 sm:w-11/12 ss:w-[480px] xs:w-[430px] xxs:w-full bg-white p-1 desktopSmall:pt-32 lg:pt-16 " style={{
       zIndex: -1, userSelect: 'none',
       WebkitUserSelect: 'none',
       MozUserSelect: 'none',
       msUserSelect: 'none'
     }}>
-      <div className=" select-none grid lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-12 xs:grid-cols-1 xxs:grid-cols-1 gap-4">
-        <div className="lg:col-span-8  sm:col-span-8  xs:col-span-8 xxs:col-span-8 ">
-          <img src={`${changingImages.imageUrl1}`} alt="" className="lg:w-full md:w-[550px] ss:w-full h-auto md:ml-5" />
+      <div className=" select-none grid lg:grid-cols-12 md:grid-cols-12 xsm:grid-cols-12 sm:grid-cols-12 xs:grid-cols-1 xxs:grid-cols-1 gap-4 md:gap-1 xsm:gap-2 sm:gap-2 xs:gap-2 xxs:gap-2">
+        <div className="desktopSmall:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 xsm:col-span-8 sm:col-span-8 xs:col-span-8 xxs:col-span-8 ">
+          <img src={`${changingImages.imageUrl1}`} alt="" className="" />
         </div>
-        <div className="col-span-4  sm:col-span-4">
-          <img src={`${changingImages.imageUrl2}`} alt="" className="lg:w-full md:w-[260px] ss:w-[500px] xxs:w-[325px]  h-auto lg:mt-12 sm:mt-11 md:mr-6 lg:pt-0 md:pt-3 sm:pt-0 xsm:pt-0 ss:pt-0 xs:pt-0 xxs:pt-0 sm:ml-3 ss:ml-16 xs:ml-16 xxs:ml-[2.13rem]" />
+        <div className="desktopSmall:col-span-4 xl:col-span-4 md:col-span-4 xsm:col-span-4 xsm:mt-8 sm:col-span-4 sm:mt-8 xs:col-span-8 xxs:col-span-8 xs:flex xs:justify-center xs:items-center xxs:flex xxs:justify-center xxs:items-center  ">
+          <img src={`${changingImages.imageUrl2}`} alt="" className="ss:w-[400px] xs:w-full xs:h-auto" />
         </div>
-        <div className="col-span-6  sm:col-span-4">
-          <img src={`${changingImages.imageUrl4}`} alt="" className="lg:w-full ss:w-full h-auto lg:mt-0 lg:ml-2 sm:mt-2 sm:ml-3 ss:ml-4 xs:ml-6 xxs:ml-[1rem]" />
+        <div className="desktopSmall:col-span-4 xl:col-span-4 md:col-span-4 xsm:col-span-4 sm:col-span-4 xs:col-span-8 xxs:col-span-8 ">
+          <img src={`${changingImages.imageUrl4}`} alt="" className=" xs:w-full xs:h-auto " />
         </div>
-        <div className="col-span-6  sm:col-span-8">
-          <img src={`${changingImages.imageUrl3}`} alt="" className="lg:w-full md:w-[550px] h-auto lg:mt-0 sm:mt-2 ss:ml-4 xs:ml-2 xxs:ml-[18px]" />
+        <div className="desktopSmall:col-span-8 xl:col-span-8 md:col-span-8 xsm:col-span-8 sm:col-span-8 xs:col-span-8 xxs:col-span-8">
+          <img src={`${changingImages.imageUrl3}`} alt="" className="lg:w-full" />
         </div>
       </div>
     </section>

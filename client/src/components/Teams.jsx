@@ -156,7 +156,7 @@ function Teams() {
         </div>
       </section>
 
-      <div className="slider-container min-h-[120px] mt-16">
+      <div className="slider-container min-h-[120px] lg:h-[640px] mt-16">
         <div className="wrapper">
           <FiArrowLeft id="left" className="arrow-icon" />
           <ul className="carousel" key={language}>

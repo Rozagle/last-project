@@ -99,7 +99,7 @@ function Navbar() {
             <div className="navigationBar text-white flex justify-between items-center h-16 max-w-[1450px] desktopUltraWide:h-80 desktopUltraWide:max-w-[4050px] desktopLarge:h-56 desktopLarge:max-w-[2850px]  desktopMedium:h-28 desktopMedium:max-w-[1950px] desktopSmall:h-28 desktopSmall:max-w-[1640px] lg:max-w-[1450px] mx-auto px-5 relative">
                 <div className="select-none w-36 h-36 desktopUltraWide:w-[800px] desktopUltraWide:h-[800px] desktopLarge:w-[500px] desktopLarge:h-[500px] desktopMedium:w-[250px] desktopMedium:h-[250px] desktopSmall:w-[250px] desktopSmall:h-[250px] lg:w-44 lg:h-44 sm:w-[190px] sm:h-[190px] xsm:w-40 xsm:h-40 xxs:w-[140px] xxs:h-[140px] lg:pt-6 sm:pt-4 xsm:pt-3 relative flex items-center">
                     <img
-                        className="select-none w-36 h-36 desktopUltraWide:w-[800px] desktopUltraWide:h-[800px] desktopUltraWide:mr-44 desktopLarge:w-[500px] desktopLarge:h-[500px] desktopMedium:w-[250px] desktopMedium:h-[250px] desktopSmall:w-[250px] desktopSmall:h-[250px] desktopLarge:pt-4 lg:mb-5 lg:w-36  lg:h-28 sm:w-[190px] sm:h-[190px] xxs:w-[140px] xxs:h-[140px] xsm:w-40 xsm:h-40  mr-2"
+                        className="select-none w-36 h-36 desktopUltraWide:w-[800px] desktopUltraWide:h-[800px] desktopUltraWide:mr-44 desktopLarge:w-[500px] desktopLarge:h-[500px] desktopMedium:w-[250px] desktopMedium:h-[250px] desktopSmall:w-[250px] desktopSmall:h-[250px] desktopLarge:pt-4 lg:mb-5 lg:w-36  lg:h-28 sm:w-[160px] sm:h-[160px]  xsm:w-40 xsm:h-40 xs:w-[140px] xs:h-[140px] xxs:w-[120px] xxs:h-[120px]  mr-2"
                         alt=""
                         src="/siyesoNavbar.svg"
                     />

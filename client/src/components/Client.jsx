@@ -14,9 +14,9 @@ function Client() {
 
     return (
         <>
-            <section id='client' className="px-3 md:lg:xl:px-40 py-20 bg-opacity-10 max-w-[1132px] lg:max-w-[2332px] mx-auto" style={{ zIndex: -1 }}>
+            <section id='client' className="px-3 md:lg:xl:px-40 py-20 bg-opacity-10 max-w-[1132px] lg:max-w-[2332px] lg:h-[835px] md:h-[690px] mx-auto" style={{ zIndex: -1 }}>
 
-                <div className='w-[100%] flex flex-col'>
+                <div className='w-[100%] flex flex-col lg:pt-24'>
                     <div className='flex space-y-2 flex-col text-center mb-14 text-black'>
                         <h1 className="desktopMedium:text-5xl lg:text-[40px] md:text-4xl xsm:text-4xl sm:text-4xl xxs:text-3xl  xs:text-4xl text-2xl font-bold text-center mt-8 mb-4 capitalize">
                             {t('ClientPage.heading')}
