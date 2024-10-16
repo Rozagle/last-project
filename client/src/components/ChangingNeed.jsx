@@ -35,17 +35,17 @@ function ChangingNeed() {
       MozUserSelect: 'none',
       msUserSelect: 'none'
     }}>
-      <div className=" select-none grid lg:grid-cols-12 md:grid-cols-12 xsm:grid-cols-12 sm:grid-cols-12 xs:grid-cols-1 xxs:grid-cols-1 gap-4 md:gap-1 xsm:gap-2 sm:gap-2 xs:gap-2 xxs:gap-2">
-        <div className="desktopSmall:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 xsm:col-span-8 sm:col-span-8 xs:col-span-8 xxs:col-span-8 ">
+      <div className=" select-none grid desktopMedium:col-span-12 desktopSmall:grid-cols-12 xl:grid-cols-12 lg:grid-cols-12 md:grid-cols-12 xsm:grid-cols-12 sm:grid-cols-12 xs:grid-cols-1 xxs:grid-cols-1 gap-4 md:gap-1 xsm:gap-2 sm:gap-2 xs:gap-2 xxs:gap-2">
+        <div className="desktopMedium:col-span-8 desktopSmall:col-span-8 xl:col-span-8 lg:col-span-8 md:col-span-8 xsm:col-span-8 sm:col-span-8 xs:col-span-8 xxs:col-span-8 ">
           <img src={`${changingImages.imageUrl1}`} alt="" className="" />
         </div>
-        <div className="desktopSmall:col-span-4 xl:col-span-4 md:col-span-4 xsm:col-span-4 xsm:mt-8 sm:col-span-4 sm:mt-8 xs:col-span-8 xxs:col-span-8 xs:flex xs:justify-center xs:items-center xxs:flex xxs:justify-center xxs:items-center  ">
+        <div className="desktopMedium:col-span-4 desktopSmall:col-span-4 xl:col-span-4 md:col-span-4 xsm:col-span-4 xsm:mt-8 sm:col-span-4 sm:mt-8 xs:col-span-8 xxs:col-span-8 xs:flex xs:justify-center xs:items-center xxs:flex xxs:justify-center xxs:items-center  ">
           <img src={`${changingImages.imageUrl2}`} alt="" className="ss:w-[400px] xs:w-full xs:h-auto" />
         </div>
-        <div className="desktopSmall:col-span-4 xl:col-span-4 md:col-span-4 xsm:col-span-4 sm:col-span-4 xs:col-span-8 xxs:col-span-8 ">
+        <div className="desktopMedium:col-span-4 desktopSmall:col-span-4 xl:col-span-4 md:col-span-4 xsm:col-span-4 sm:col-span-4 xs:col-span-8 xxs:col-span-8 ">
           <img src={`${changingImages.imageUrl4}`} alt="" className=" xs:w-full xs:h-auto " />
         </div>
-        <div className="desktopSmall:col-span-8 xl:col-span-8 md:col-span-8 xsm:col-span-8 sm:col-span-8 xs:col-span-8 xxs:col-span-8">
+        <div className="desktopMedium:col-span-8 desktopSmall:col-span-8 xl:col-span-8 md:col-span-8 xsm:col-span-8 sm:col-span-8 xs:col-span-8 xxs:col-span-8">
           <img src={`${changingImages.imageUrl3}`} alt="" className="lg:w-full" />
         </div>
       </div>

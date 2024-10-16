@@ -26,7 +26,7 @@ function About() {
         </div>
         <div className='lg:w-8/10 md:w-full xs:w-full xxs:w-full mx-auto flex flex-col lg:flex-row md:flex-col lg:mt-8 xl:mt-12 justify-between items-center  '>
           <img src={aboutusimg} alt="" className='select-none w-full xl:w-2/5 lg:w-4/5  md:w-3/5 sm:w-3/5 ss:w-3/4 xs:w-full xxs:w-full ss:ml-4  lg:ml-4 lg:mb-24 xs:mr-2   md:mb-0 relative mx-auto rounded-2xl' style={{ maxWidth: '90%', height: 'auto', maxHeight: '400px' }} />
-          <div className=' lg:w-full md:w-full xxs:w-1\4 m-3  lg:mt-6 xl:mb-24'>
+          <div className=' lg:w-full md:w-full xxs:w-1\4 m-3  lg:mt-12 xl:mb-24'>
             <p className='text-base text-center lg:text-xl  sm:text-2xl xxs:text-lg xxs:text-center mb-4'>
               {t('AboutPage.description1')}
             </p>
